@@ -5,6 +5,7 @@ import Main from "../Layout/Main";
 import Home from "../pages/Home/Home/Home";
 import AllInstructor from "../pages/Home/All Instructor/AllInstructor";
 import AllCourse from "../pages/Home/All Courses/AllCourse";
+import Login from "../pages/Login/Login";
 
   export const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ import AllCourse from "../pages/Home/All Courses/AllCourse";
         {
           path: "/AllInstructor",
           element: <AllInstructor></AllInstructor>
+        },
+        {
+          path: "/login",
+          element: <Login></Login>
         }
       ]
     },

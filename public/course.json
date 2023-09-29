@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "_id": 1,
         "title": "Introduction to Python Programming",
         "description": "Learn the fundamentals of Python programming.",
         "rating": 4.5,
@@ -10,7 +10,7 @@
         "totalStudents": 500
     },
     {
-        "id": 2,
+        "_id": 2,
         "title": "Web Development with HTML, CSS, and JavaScript",
         "description": "Master front-end web development technologies.",
         "rating": 4.7,
@@ -20,17 +20,17 @@
         "totalStudents": 800
     },
     {
-        "id": 3,
+        "_id": 3,
         "title": "Cybersecurity Fundamentals",
         "description": "Explore the basics of cybersecurity and online safety.",
         "rating": 4.3,
-        "instructor": "David Brown",
+        "instructor": "Dav_id Brown",
         "image": "https://i.ibb.co/0CZWNBr/Blog-Cybersecurity-Fundamentals.png",
         "buyCourseButton": "Enroll Now",
         "totalStudents": 350
     },
     {
-        "id": 4,
+        "_id": 4,
         "title": "Data Science for Beginners",
         "description": "Get started with data science and analytics.",
         "rating": 4.8,
@@ -40,7 +40,7 @@
         "totalStudents": 600
     },
     {
-        "id": 5,
+        "_id": 5,
         "title": "Machine Learning with Python",
         "description": "Learn how to build machine learning models using Python.",
         "rating": 4.6,
@@ -50,7 +50,7 @@
         "totalStudents": 450
     },
     {
-        "id": 6,
+        "_id": 6,
         "title": "Cloud Computing Essentials",
         "description": "Explore cloud platforms and services.",
         "rating": 4.9,
@@ -60,7 +60,7 @@
         "totalStudents": 900
     },
     {
-        "id": 7,
+        "_id": 7,
         "title": "Database Management with SQL",
         "description": "Master SQL for efficient database administration.",
         "rating": 4.4,
@@ -70,7 +70,7 @@
         "totalStudents": 300
     },
     {
-        "id": 8,
+        "_id": 8,
         "title": "Full-Stack Web Development",
         "description": "Become a proficient full-stack web developer.",
         "rating": 4.2,
@@ -80,7 +80,7 @@
         "totalStudents": 250
     },
     {
-        "id": 9,
+        "_id": 9,
         "title": "Ethical Hacking and Penetration Testing",
         "description": "Learn ethical hacking techniques and security testing.",
         "rating": 4.0,

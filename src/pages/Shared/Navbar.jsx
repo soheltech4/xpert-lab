@@ -8,6 +8,10 @@ const Navbar = () => {
         <li><Link to='/allcourse'>All Course</Link></li>
         <li><Link to='/AllInstructor'>All Instructor</Link></li>
     </>
+    const Login = 
+    <>
+        <a><Link to='/login'>Login</Link></a>
+    </>
 
     return (
         <>
@@ -29,7 +33,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <a>{Login}</a>
                 </div>
             </div>
         </>

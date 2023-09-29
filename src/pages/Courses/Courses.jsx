@@ -6,15 +6,15 @@ const Courses = () => {
     const [courses, setCourse] = useState([])
 
     useEffect(()=> {
-        fetch('course.json')
+        fetch('http://localhost:5000/courses')
         .then(res => res.json())
-        .then(data => setCourse(data.slice(0,6)))
+        .then(data => setCourse(data))
     }, [])
     return (
-        <div className='md:grid grid-cols-3 gap-5 items-center mb-5'>
+        <div className='md:grid grid-cols-3 gap-5 items-center px-2 py-5 mb-5'>
             {
                 courses.map(course=> <ShowCourse 
-                    key={course.id} 
+                    key={course._id} 
                     course={course}
                 ></ShowCourse>)
             }
