@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "title": "Introduction to Python Programming",
+        "description": "Learn the fundamentals of Python programming.",
+        "rating": 4.5,
+        "instructor": "John Smith",
+        "image": "https://i.ibb.co/bPCHVPf/1.png",
+        "buyCourseButton": "Enroll Now",
+        "totalStudents": 500
+    },
+    {
+        "id": 2,
+        "title": "Web Development with HTML, CSS, and JavaScript",
+        "description": "Master front-end web development technologies.",
+        "rating": 4.7,
+        "instructor": "Alice Johnson",
+        "image": "https://i.ibb.co/yRgZDcp/1-V-Jp13-Lvt-Vc2-Ii-Y2fp4q-Yw.jpg",
+        "buyCourseButton": "Enroll Now",
+        "totalStudents": 800
+    },
+    {
+        "id": 3,
+        "title": "Cybersecurity Fundamentals",
+        "description": "Explore the basics of cybersecurity and online safety.",
+        "rating": 4.3,
+        "instructor": "David Brown",
+        "image": "https://i.ibb.co/0CZWNBr/Blog-Cybersecurity-Fundamentals.png",
+        "buyCourseButton": "Enroll Now",
+        "totalStudents": 350
+    },
+    {
+        "id": 4,
+        "title": "Data Science for Beginners",
+        "description": "Get started with data science and analytics.",
+        "rating": 4.8,
+        "instructor": "Emily White",
+        "image": "https://i.ibb.co/6XcN2Xs/how-to-become-a-data-scientist.jpg",
+        "buyCourseButton": "Enroll Now",
+        "totalStudents": 600
+    },
+    {
+        "id": 5,
+        "title": "Machine Learning with Python",
+        "description": "Learn how to build machine learning models using Python.",
+        "rating": 4.6,
+        "instructor": "Michael Davis",
+        "image": "https://i.ibb.co/4RzcqBN/5452282-ebb0-4.jpg",
+        "buyCourseButton": "Enroll Now",
+        "totalStudents": 450
+    },
+    {
+        "id": 6,
+        "title": "Cloud Computing Essentials",
+        "description": "Explore cloud platforms and services.",
+        "rating": 4.9,
+        "instructor": "Sarah Miller",
+        "image": "https://i.ibb.co/sqb67qQ/Data-Analytics-Benefits-768x403.png",
+        "buyCourseButton": "Enroll Now",
+        "totalStudents": 900
+    },
+    {
+        "id": 7,
+        "title": "Database Management with SQL",
+        "description": "Master SQL for efficient database administration.",
+        "rating": 4.4,
+        "instructor": "Daniel Wilson",
+        "image": "https://i.ibb.co/jhs7vF4/Adobe-Stock-405526181-1300x650.jpg",
+        "buyCourseButton": "Enroll Now",
+        "totalStudents": 300
+    },
+    {
+        "id": 8,
+        "title": "Full-Stack Web Development",
+        "description": "Become a proficient full-stack web developer.",
+        "rating": 4.2,
+        "instructor": "Olivia Adams",
+        "image": "https://i.ibb.co/0DPTZfy/depositphotos-53875805-stock-photo-information-technology-background.webp",
+        "buyCourseButton": "Enroll Now",
+        "totalStudents": 250
+    },
+    {
+        "id": 9,
+        "title": "Ethical Hacking and Penetration Testing",
+        "description": "Learn ethical hacking techniques and security testing.",
+        "rating": 4.0,
+        "instructor": "Jacob Turner",
+        "image": "https://i.ibb.co/rvxpprh/digital-image-globe-81048-12878.jpg",
+        "buyCourseButton": "Enroll Now",
+        "totalStudents": 200
+    },
+    {
+        "id": 10,
+        "title": "Artificial Intelligence and Deep Learning",
+        "description": "Dive into AI and deep learning concepts and applications.",
+        "rating": 4.7,
+        "instructor": "Sophia Lee",
+        "image": "https://i.ibb.co/4VnK8d0/ip-security-data-protection-protocols-ipsec-internet-protection-network-concept-161452-12604.jpg",
+        "buyCourseButton": "Enroll Now",
+        "totalStudents": 700
+    }
+]
