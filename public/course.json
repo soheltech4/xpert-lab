@@ -88,15 +88,5 @@
         "image": "https://i.ibb.co/rvxpprh/digital-image-globe-81048-12878.jpg",
         "buyCourseButton": "Enroll Now",
         "totalStudents": 200
-    },
-    {
-        "id": 10,
-        "title": "Artificial Intelligence and Deep Learning",
-        "description": "Dive into AI and deep learning concepts and applications.",
-        "rating": 4.7,
-        "instructor": "Sophia Lee",
-        "image": "https://i.ibb.co/4VnK8d0/ip-security-data-protection-protocols-ipsec-internet-protection-network-concept-161452-12604.jpg",
-        "buyCourseButton": "Enroll Now",
-        "totalStudents": 700
     }
 ]
