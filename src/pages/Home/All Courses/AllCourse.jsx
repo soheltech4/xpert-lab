@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import Cover from '../../Shared/Covered/Cover';
 
 const AllCourse = () => {
     return (
@@ -8,7 +9,7 @@ const AllCourse = () => {
                 <title>Expert Lab | All Course</title>
             </Helmet>
             <div>
-            <h1>All Course</h1>
+            <Cover img={"https://i.ibb.co/6DJ59xh/fdfdfdf.jpg"} title={"All Courses"}></Cover>
         </div>
         </div >
     );

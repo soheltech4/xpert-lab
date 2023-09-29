@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import Cover from '../../Shared/Covered/Cover';
 
 const AllInstructor = () => {
     return (
@@ -9,7 +10,8 @@ const AllInstructor = () => {
                     <title>Expert Lab | Instructor</title>
                 </Helmet>
             </div>
-            <h1>All Instructor</h1>
+            <Cover img={"https://i.ibb.co/m8gGFvJ/22222222222.jpg"} title={"All Instructors"}></Cover>
+
         </div>
     );
 };
