@@ -6,7 +6,6 @@ import Navbar from '../pages/Shared/Navbar';
 const Main = () => {
     const location = useLocation()
     const noHeaderFooter = location.pathname.includes('login')
-    console.log(location)
     return (
         <div>
             {noHeaderFooter || <Navbar></Navbar>}
