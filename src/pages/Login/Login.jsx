@@ -1,17 +1,21 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const Login = () => {
 
-const handleLogin = event => {
-    event.preventDefault();
-    const form = event.target
-    const email = form.email.value
-    const password = form.password.value 
-    console.log(email, password)
-}
+    const handleLogin = event => {
+        event.preventDefault();
+        const form = event.target
+        const email = form.email.value
+        const password = form.password.value
+        console.log(email, password)
+    }
 
     return (
         <div>
+            <Helmet>
+                <title>Expert Lab | Login</title>
+            </Helmet>
             <div className="hero min-h-screen">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="text-center lg:text-left md:w-1/2">
@@ -24,7 +28,7 @@ const handleLogin = event => {
                                 <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
-                                <input type="email" name='email' required  placeholder="email" className="input input-bordered" />
+                                <input type="email" name='email' required placeholder="email" className="input input-bordered" />
                             </div>
                             <div className="form-control">
                                 <label className="label">
