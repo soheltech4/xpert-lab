@@ -1,48 +1,54 @@
 import React, { useContext } from 'react';
 import { Helmet } from 'react-helmet';
-import { AuthContext } from '../../Providers/AuthProvider';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../Providers/AuthProvider';
 import Swal from 'sweetalert2';
 
-const Login = () => {
+const SignUp = () => {
 
-    const { signIn } = useContext(AuthContext)
+const {createUser} = useContext(AuthContext)
 
-
-    const handleLogin = event => {
+    const handleSignup = event => {
         event.preventDefault();
         const form = event.target
+        const name = form.name.value
         const email = form.email.value
         const password = form.password.value
-        console.log(email, password)
-        signIn(email, password)
+        console.log(name, email, password)
+        createUser(email, password)
             .then(result => {
-                const user = result.user
-                console.log(user)
+                const LoggedUser = result.user
+                console.log(LoggedUser)
                 Swal.fire({
                     position: 'top-end',
                     icon: 'success',
-                    title: 'Login Successfully',
+                    title: 'Signup Is Successfully',
                     showConfirmButton: false,
                     timer: 1500
                   })
             })
-            
     }
+
 
     return (
         <div className=''>
             <Helmet>
-                <title>Expert Lab | Login</title>
+                <title>Expert Lab | Signup</title>
             </Helmet>
             <div className="hero min-h-screen">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="text-center lg:text-left md:w-1/2">
-                        <h1 className="text-3xl font-bold">Login now!</h1>
+                        <h1 className="text-3xl font-bold">Please Signup</h1>
                         <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                     </div>
                     <div className="card flex-shrink-0 w-full max-w-sm ">
-                        <form onSubmit={handleLogin} className="card-body">
+                        <form onSubmit={handleSignup} className="card-body">
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Name</span>
+                                </label>
+                                <input type="text" name='name' required placeholder="Name" className="input input-bordered" />
+                            </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Email</span>
@@ -59,13 +65,13 @@ const Login = () => {
                                 </label>
                             </div>
                             <div className="form-control mt-6">
-                                <input type="submit" className="btn btn-primary" value="Login" />
+                                <input type="submit" className="btn btn-primary" value="Signup" />
                             </div>
                             <div className="flex flex-col w-full border-opacity-50">
                                 <div className="divider">OR</div>
                             </div>
                         </form>
-                        <p className='text-center text-blue-400'> <small><Link to="/signup">Create an Account</Link></small> </p>
+                        <p className='text-center'> Have an Account ? Please <small className='text-center text-blue-400'><Link to="/login">Login</Link></small> </p>
                     </div>
                 </div>
             </div>
@@ -73,4 +79,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default SignUp;

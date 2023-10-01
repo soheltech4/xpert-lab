@@ -6,7 +6,7 @@ const Courses = () => {
     const [courses, setCourse] = useState([])
 
     useEffect(()=> {
-        fetch('http://localhost:5000/courses')
+        fetch('https://xpert-lab-server-1tl0fwret-sohelranagtc.vercel.app/courses')
         .then(res => res.json())
         .then(data => setCourse(data))
     }, [])
